@@ -8,4 +8,9 @@ dpkg-reconfigure locales
 ```
 
 ### Create new user with groups sudo & www-data
+```shell
+adduser --home /home/sfinks username
+adduser username sudo
+adduser username www-data
+```
 
